@@ -1,0 +1,10 @@
+[package]
+name = "aranet2sonnerie"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aranet4 = "0.1.0"
+tokio = { version = "1.38.0", features = ["full"] }
+sonnerie = { git = "https://github.com/njaard/sonnerie" }
+chrono = { version = "0.4.38", features = ["now"] }
