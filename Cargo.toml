@@ -4,7 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-aranet4 = "0.1.0"
-tokio = { version = "1.38.0", features = ["full"] }
-sonnerie = { git = "https://github.com/njaard/sonnerie" }
+anyhow = "1.0.99"
+aranet4 = { path = "../aranet4-rs" }
 chrono = { version = "0.4.38", features = ["now"] }
+clap = "4.5.45"
+sonnerie = "0.9.1"
+tokio = { version = "1.38.0", features = ["full"] }
